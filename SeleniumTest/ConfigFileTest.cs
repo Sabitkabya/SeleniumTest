@@ -64,7 +64,7 @@ namespace SeleniumTest
             driver.FindElement(By.Id(ConfigurationManager.AppSettings["Btn_BookingHotel_BookNow"])).Click();
             driver.FindElement(By.LinkText(ConfigurationManager.AppSettings["Lnk_BookingHotel_Logout"])).Click();
             driver.FindElement(By.LinkText(ConfigurationManager.AppSettings["Lnk_Logout_ClickHeretoLoginAgain"])).Click();
-            IWebElement txtbox_username = driver.FindElement(By.Id("username"));
+            IWebElement txtbox_username = driver.FindElement(By.Id("username4"));
 
 
         }
